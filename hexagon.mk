@@ -1,5 +1,5 @@
 # Check for target product
-ifeq (lineage_x3,$(TARGET_PRODUCT))
+ifeq (hexagon_x3,$(TARGET_PRODUCT))
 
 LOCAL_PATH := device/leeco/x3
 
@@ -11,7 +11,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
 # Inherit some common Lineage stuff.
-$(call inherit-product, vendor/cm/config/common_full_phone.mk)
+$(call inherit-product, vendor/hexagon/configs/common.mk)
 
 # Release name
 PRODUCT_RELEASE_NAME := x3
