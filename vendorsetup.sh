@@ -1,1 +1,1 @@
-add_lunch_combo hexagon_x3-userdebug
+add_lunch_combo nitrogen_x3-userdebug
